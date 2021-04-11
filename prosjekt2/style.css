@@ -1,0 +1,164 @@
+html,
+body,
+header,
+#intro {
+    height: 100%;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: sans-serif;    
+}
+
+#intro {
+    background: url(images/adrian-williams-76618-unsplash.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.container-index {
+ width: 1170px;
+ margin: 0 auto;
+background: gray;
+    opacity: 0.9;
+}
+
+.container {   
+ width: 1170px;
+ margin: 0 auto;
+}
+
+.bg-image-full {
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.jumbotron{
+ background-image: url(images/louis-lo-275893-unsplash.jpg);
+ background-size: cover;
+ background-repeat: no-repeat;
+background-position: center;     
+}
+
+.carousel-item {
+  height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+h1{
+    color: green;
+    font-size: 60px;
+     font-weight: 700;
+}
+
+h3{
+    color: green;
+}
+
+p{
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.fas{
+    color: white
+}
+
+.fab {
+    color: green;
+}
+
+#txt-cont {
+    background: white;
+}
+
+.contact .form-control {
+  background: transparent;
+  border: 2px solid black;
+}
+
+.contact .form-control:focus {
+  border-color: black;
+}
+
+.contact input::-webkit-input-placeholder,
+.contact textarea::-webkit-input-placeholder {
+  color: white;
+}
+
+.contact input:-ms-input-placeholder,
+.contact textarea:-ms-input-placeholder {
+  color: white;
+}
+
+.contact input::placeholder,
+.contact textarea::placeholder {
+  color: white;
+}
+
+.contact .right-image {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  top: 0;
+}
+
+.contact.bg-info {
+    background-color: green!important;
+}
+
+.contact .text-inverse {
+    color: ;
+}
+
+@media (min-width: 1024px) {
+	.contact .contact-box {
+    padding: 80px 105px 80px 0px;
+	}
+}
+
+@media (max-width: 767px) {
+	.contact .contact-box {
+        padding-left: 15px;
+        padding-right: 15px;
+	}
+}
+
+@media (max-width: 1023px) {
+	.contact .right-image {
+        position: relative;
+        bottom: -95px;
+	}
+}
+
+
+
+footer{
+    padding: 20px;
+    color: lightgreen;
+    background-color: #353637;
+    text-align: center;
+}
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) { ... }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) { ... }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) { ... }

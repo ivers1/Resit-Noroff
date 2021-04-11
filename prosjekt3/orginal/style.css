@@ -1,0 +1,416 @@
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0000;
+    box-sizing: border-box;
+    
+}
+
+*{
+    text-decoration: none;
+}
+
+h1 {
+    color:  #005288;
+    text-align: center;
+    font-size: 60px;
+    margin: 0 auto;
+}
+
+p {
+    text-align: center;
+    color: black;
+    font-weight: 700;
+}
+
+a {
+    color: #005288;
+    font-weight: 700;
+}
+
+header {
+    background-color: #fff;
+    width: 100%;
+    height: 100px;
+}
+
+.header-brand img {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    height: 70px;
+    width: 200px;
+}
+
+header nav ul {
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
+}
+
+header nav ul li {
+    display: inline-block;
+    float: left;
+    list-style: none;
+    padding: 0 16px;
+}
+
+header nav ul li a {
+    font-family: monospace sans-serif;
+    font-size: 16px;
+    color: #A7A9AC;
+    text-transform: uppercase;
+}
+
+header nav ul li a:hover {
+    color: #005288;
+}
+
+.parallax {
+    background-image: url(img/earth-soil-creep-moon-lunar-surface-87009.jpeg);
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.parallax-inner {
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
+
+.parallax1 {
+    background-image: url(img/rocket-launch-rocket-take-off-nasa-73872.jpeg);
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 0.70;
+}
+
+.parallax-inner1 {
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
+.parallax2 {
+    background-image: url(img/pexels-photo-256229.jpeg);
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 0.70;
+}
+
+.parallax-inner2 {
+    padding-top: 15%;
+    padding-bottom: 10%;
+}
+
+.parallax-p {
+    color: white;
+}
+
+
+.subhead-wrapper {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.subhead-container {
+    display: flex;
+    border-bottom: 3px solid #A7A9AC
+}
+
+.countdown {
+    display: block;
+    text-align: center;
+    object-fit: contain;
+    padding: 20px;
+    padding-left: 100px;
+	font-size:20px;
+	color:#005288;
+}
+
+.txt {
+    display: block;
+    float: left;
+    padding-left: 100px;
+    font-size: 20px;
+    color:#005288;
+}
+
+#timer {
+    color: #fff;
+    font-size: 2rem;
+}
+.label {
+    font-size: 1rem;
+    padding-left: 0.25rem;
+}
+
+.icons {
+    width: 10%;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    position: sticky;
+    z-index: 100;
+    
+}
+
+.icons ul {
+    padding: initial;
+}
+
+.icons ul li {
+    height: 40px;
+    width: 40px;
+    list-style-type: none;
+    padding-left: 12px;
+    padding-top: 6px;
+    margin-top: 5px;
+    color: #fff;
+}
+
+.facebook {
+    background: #3b5998;
+}
+
+.youtube {
+    background: #ff0000;
+}
+
+.twitter {
+    background: #55acee;
+}
+
+.instagram {
+    background: #ff4800;
+}
+
+.icons ul li:hover{
+    padding-left: 30px;
+    width: 50px;
+    transition: 1s;
+}
+
+.launch-info-url, .launch-info-url-video {
+    display: flex;
+    margin: auto;
+}
+
+.main-container {
+    margin: auto;
+    width: 80%;
+    padding: auto;
+}
+
+.launch-input-container {
+    text-align: center;
+}
+
+.form-container {
+    margin: auto;
+    width: 80%;
+}
+
+.information {
+    border: 5px solid #005288;;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 20px 20px;
+}
+
+form {
+    display: flex;
+    border: 5px solid #005288;;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 20px 20px;
+    margin-bottom: 100px;
+}
+#feedback {
+    height: 100px;
+    width: 100%;
+}
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+input {
+    width: 100%;
+  margin: 0 .25rem;
+  min-width: 125px;
+  border: 1px solid #eee;
+  border-left: 3px solid;
+  border-radius: 5px;
+}
+
+.wrapper {
+    margin: auto;
+    width: 80%;
+    padding: auto;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    perspective: 2px;    
+}
+
+.section {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.parallax-a::after {
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform: translateZ(-1px) scale(1.5);
+  background-size: 100%;
+  z-index: -1;
+}
+
+.static {
+  background: #a7a9ac;
+}
+
+.hist::after {
+  background-image: url(img/earth-soil-creep-moon-lunar-surface-87009.jpeg);
+    background-size: cover;
+}
+
+.cur::after {
+  background-image: url(img/astronaut-spacewalk-iss-tools.jpg);
+    background-size: cover;
+}
+
+.fut::after {
+    background-image: url(img/pexels-photo-110854.jpeg); 
+    background-size: cover;
+}
+
+.tech::after {
+    background-image: url(img/pexels-photo-256229.jpeg);
+    background-size: cover;
+}
+
+.elon::after {
+    background-image: url(img/33944890310.png); 
+    background-size: cover;
+}
+
+.wrap,
+.image-content {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.wrap {
+  position: absolute;
+}
+
+.images {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.image-dragon {
+  background-image: url(img/spacecraft-693218_1280.jpg);
+    opacity: 0.70;
+}
+.image-falconh {
+  background-image: url(img/spacex-549324-unsplash.jpg);
+    opacity: 0.70;
+}
+.image-falcon9 {
+  background-image: url(img/flight-1245695_1280.jpg);
+    opacity: 0.70;
+}
+
+.image-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.image-content span {
+  font-size: 5rem;
+  color: #fff;
+}
+
+
+
+
+.footer {
+  display: flex;    
+  position: fixed;
+  bottom: 0;
+  padding-top: 0px;
+  width: 100%;    
+  height: 78px;
+  text-align: center;
+  background: white;
+}
+
+.foo {
+    display: block;
+    padding: 10px;
+    margin: 0px auto;
+    text-align: center;
+    font-size: 14px
+}
+
+.foot {
+    display: inline;
+    line-height: 70px;
+}
+
+.logo img {
+    height: 70px;
+    width: 200px;
+    float:left;
+}
+
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+  
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+     }
+ 
+@media only screen and (min-width: 1200px) {
+        
+}
+
+
+
+
