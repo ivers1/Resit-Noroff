@@ -1,6 +1,6 @@
 function nextLaunch(){
     var now = new Date();
-    var launchDate = new Date("Jun 25, 2019 05:30:00"); 
+    var launchDate = new Date("April 14, 2021 05:30:00"); 
     
     var currentTime = now.getTime();
     var launchTime = launchDate.getTime();
